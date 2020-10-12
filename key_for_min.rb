@@ -4,10 +4,7 @@
 ikea = {:chair => 25, :table => 85, :mattress => 450}
 
 def key_for_min_value(name_hash)
-  if name_hash = { } 
-    return nil 
-    
-  smallest_value = name_hash[0][0]
+  smallest_value = name_hash[0]
   puts smallest_value 
 end 
 
