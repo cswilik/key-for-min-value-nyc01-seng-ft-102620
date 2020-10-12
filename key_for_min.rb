@@ -8,5 +8,5 @@ def key_for_min_value(name_hash)
   puts smallest_value 
 end 
 
-
+key_for_min_value(ikea)
 
