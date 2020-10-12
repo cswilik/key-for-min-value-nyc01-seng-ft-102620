@@ -4,8 +4,7 @@
 ikea = {:chair => 25, :table => 85, :mattress => 450}
 
 def key_for_min_value(name_hash)
-  smallest_value = name_hash[0]
-  puts smallest_value 
+  puts  name_hash[0]
 end 
 
 key_for_min_value(ikea)
